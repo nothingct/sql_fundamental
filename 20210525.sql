@@ -1,4 +1,4 @@
-kpcmembercreate table member(
+create table member(
 	num int primary key,
 	name varchar(50),
 	addr varchar(50)

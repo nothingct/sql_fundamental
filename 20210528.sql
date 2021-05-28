@@ -191,6 +191,9 @@ WHERE col1 > 0;
 #start transaction : Console 에서 치고 입력한 후 
 SELECT * FROM member;
 #치면 안들어가 있음 ( console에는 들어가 있음) 
+#기출 21회 다중 행 비교 연산자 문제 정답 확인 
+SELECT * FROM tab1
+WHERE col1 NOT IN (SELECT col1 FROM tab2);
 
 
 
